@@ -1,7 +1,5 @@
-firejail profiles
+# Firejail Profiles
 
-i like to install old security-bug ridden games
+Some are for old games/applications with security issues. (like the smokin' guns profile)
 
-but i want to still play them
-
-so i use firejail
+Use at your own risk, YMMV.
