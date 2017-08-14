@@ -1,0 +1,8 @@
+#firejail --profile=/usr/local/etc/firejail/start-tor-browser.profile --debug /usr/bin/torbrowser-launcher
+noblacklist ~/.config/torbrowser
+whitelist ~/.config/torbrowser
+noblacklist ~/.local/share/torbrowser
+whitelist ~/.local/share/torbrowser
+blacklist /media
+private-bin torbrowser-launcher,python2.7,python
+
