@@ -2,13 +2,13 @@
 # This file is overwritten after every install/update
 # Persistent local customizations
 # Persistent global definitions
-include /usr/local/etc/firejail/globals.local
+include /etc/firejail/globals.local
 
-include /usr/local/etc/firejail/disable-common.inc
-include /usr/local/etc/firejail/disable-devel.inc
-include /usr/local/etc/firejail/disable-programs.inc
+include /etc/firejail/disable-common.inc
+include /etc/firejail/disable-devel.inc
+include /etc/firejail/disable-programs.inc
 
-include /usr/local/etc/firejail/whitelist-common.inc
+include /etc/firejail/whitelist-common.inc
 
 noblacklist /usr/games/smokinguns
 noblacklist /usr/games/smokinguns/smokinguns
