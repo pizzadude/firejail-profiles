@@ -1,0 +1,3 @@
+/bin/rm fire*.deb
+/bin/rm fire*.xz
+./configure --prefix=/usr && make deb
